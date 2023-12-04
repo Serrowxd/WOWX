@@ -8,6 +8,7 @@ body {
   color: white;
   background-color: #2f2f2f;
   font-family: "Maven Pro", sans-serif;
+  height: 100vh;
 }
 
 div {
@@ -18,4 +19,45 @@ div {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.column {
+  height: 100%;
+  flex-direction: column;
+}
+
+.container {
+  height: 100%;
+}
+
+/* Tool Styling */
+.tools-column {
+  border-right: 1px solid white;
+}
+
+.tools-left {
+  margin-top: 1rem;
+  width: 3rem;
+}
+.tool-icon {
+  /* rename this to tools-icon */
+  padding: 1rem;
+  border: 1px solid white;
+  margin: 0.5rem;
+}
+
+/* User Tab Styling */
+.right-bar-column {
+  border-left: 1px solid white;
+}
+
+.user-tab {
+  padding: 1rem;
+  border: 1px solid white;
+  margin: 0.5rem;
+}
+
+/* Primary Container Styling */
+.primary-container {
+  width: 90%;
 }
